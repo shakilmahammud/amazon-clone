@@ -14,7 +14,7 @@ export const Checkout = () => {
                   src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Hero/Fuji_TallHero_Computers_1x._CB432469755_.jpg" alt=""/>
              
              <div>
-             <h3>Hello,{user.email}</h3>
+             <h3>Hello,{user?.email}</h3>
                  <h2 className="checkout_title">
                      Your shopping Cart
                  </h2>
